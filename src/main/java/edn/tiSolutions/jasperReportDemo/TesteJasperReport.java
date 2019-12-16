@@ -16,8 +16,8 @@ public class TesteJasperReport {
     public static void main(String[] args) throws FileNotFoundException, JRException {
         Map<String, Object> parameters = new HashMap<>();
 
-        String fileInputPath = "C:\\Users\\edney.souza\\workspace\\jasper-reports\\teste.jrxml";
-        String fileOutputPath = "C:\\Users\\edney.souza\\workspace\\jasper-reports\\pdf\\first-example.pdf";
+        String fileInputPath = System.getProperty("user.dir") + "/jasper-reports/teste.jrxml";
+        String fileOutputPath = System.getProperty("user.dir") + "/jasper-reports/teste.pdf";
 
         List<Employee> list = Employee.getEmployeesMock();
 
