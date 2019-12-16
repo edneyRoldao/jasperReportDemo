@@ -10,4 +10,4 @@
 
 <b>step 3 - Add JDK 7 path to ireport.config</b>
 File file can be found on: iReport-5.6.0/etc/ireport.config
-<img src="https://github.com/edneyRoldao/jasperReportDemo/images/jdk-jasper-config.png">
+<img src="https://github.com/edneyRoldao/jasperReportDemo/blob/master/images/jdk-jasper-config.png">
